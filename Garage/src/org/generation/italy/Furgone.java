@@ -6,12 +6,12 @@ public class Furgone extends VeicoloMotore {
 
 	public Furgone(int id, int anno, int cilindrata, String marca) {
 		super(id, anno, cilindrata, marca);
-		this.capacita= capacita;
+		this.capacita= 200;
 	}
 	
 
 	public String toString() {
-		return super.toString() + capacita +" ";
+		return super.toString() + capacita +"lt ";
 		}
 	
 	

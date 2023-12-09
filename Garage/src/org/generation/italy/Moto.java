@@ -10,7 +10,7 @@ public class Moto extends VeicoloMotore {
 	}
 
 	public String toString() {
-		return super.toString() + tempi + " ";
+		return super.toString() + tempi;
 				
 	}
 }

@@ -1,6 +1,6 @@
 package org.generation.italy;
 
-public class VeicoloMotore {
+public class VeicoloMotore { //SUPERCLASSE
 
 	protected int id, anno, cilindrata;
 	protected String marca;
@@ -13,7 +13,7 @@ public class VeicoloMotore {
 		this.marca = marca;
 	}
 
-	@Override
+	@Override //utilizza funziona esistente ma noi riscriviamo il funzionamento
 	public String toString() {
 	return  id + " " + anno + " " + cilindrata + " " + marca + " ";	
 }
